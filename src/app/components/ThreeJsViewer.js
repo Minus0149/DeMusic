@@ -6,8 +6,8 @@ import {
   ScrollControls,
 } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
-import { Model } from './Model'
-import Nav from '@/app/components/Nav'
+import { Model } from './Model.js'
+import NavBar from '@/app/components/NavBar.js'
 
 const ThreeJsViewer = () => {
   return (
@@ -15,7 +15,7 @@ const ThreeJsViewer = () => {
       <ambientLight />
       <OrbitControls enableZoom={false} makeDefault />
       <ScrollControls pages={3} damping={0.25}>
-        <Nav />
+        <NavBar />
         <Model />
       </ScrollControls>
       <Environment preset="city" />

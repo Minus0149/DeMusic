@@ -3,7 +3,7 @@
 import { Scroll } from '@react-three/drei'
 import Link from 'next/link'
 
-const Nav = () => {
+const NavBar = () => {
   return (
     <Scroll html className=" w-full">
       <div className="bg-white h-16">
@@ -23,7 +23,7 @@ const Nav = () => {
             </li>
           </ul>
           <Link href="/" className="font-medium">
-            <span className="font-extrabold">TRY JARVIS </span>It's free!
+            <span className="font-extrabold">TRY JARVIS </span>It&apos;s free!
           </Link>
         </div>
       </div>
@@ -31,4 +31,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default NavBar

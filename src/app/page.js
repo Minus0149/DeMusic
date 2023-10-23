@@ -1,7 +1,7 @@
 'use client'
 
 import { Canvas } from '@react-three/fiber'
-import ThreeJsViewer from '@/app/components/ThreeJsViewer'
+import ThreeJsViewer from '@/app/components/ThreeJsViewer.js'
 
 export default function Home() {
   return (
