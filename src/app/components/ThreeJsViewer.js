@@ -7,7 +7,7 @@ import {
 } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import { Model } from './Model'
-import Nav from './Nav'
+import Nav from '@/app/components/Nav'
 
 const ThreeJsViewer = () => {
   return (
