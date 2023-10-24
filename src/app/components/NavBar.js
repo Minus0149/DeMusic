@@ -11,6 +11,7 @@ const NavBar = () => {
   return (
     <Scroll html className="w-full">
       <div
+
         className={`bg-zinc-950 absolute p-4 right-5 rounded-full top-5 items-center flex flex-col lg:hidded ${
           hamState && 'rounded-none top-0 right-0 w-full text-center'
         }`}
